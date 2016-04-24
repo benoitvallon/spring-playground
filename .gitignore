@@ -1,0 +1,35 @@
+# Directories #
+/build/
+/bin/
+target/
+ 
+*.class
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+ 
+# OSX # 
+.DS_Store
+ 
+# Thumbnails
+._*
+ 
+ # Eclipse # 
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
