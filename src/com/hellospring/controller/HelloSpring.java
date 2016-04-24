@@ -7,10 +7,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloSpring {
 
-  @RequestMapping("/welcome")
-  public ModelAndView helloWorld() {
+    @RequestMapping("/welcome")
+    public ModelAndView helloWorld() {
 
-    String message = "<h1>Hello Spring</h1>";
-    return new ModelAndView("welcome", "message", message);
-  }
+        String message = "This is your message from the controller";
+        return new ModelAndView("welcome", "message", message);
+    }
 }

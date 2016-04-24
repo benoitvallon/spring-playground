@@ -3,9 +3,12 @@
 <title>Hello Spring</title>
 </head>
 <body>
-  <h1>Here is your message</h1>
-  <div>
-    ${message}
+  <div style="text-align:center">
+    <h1>You are at the right place to see your message:</h1>
+    <p>
+      ${message}
+    </p>
+    <a href="/">Go back to the home</a>
   </div>
 </body>
 </html>
